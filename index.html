@@ -3,107 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Milyes – Vision NetSecurePro</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <title>NetSecurePro – Accueil</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(to bottom, #0e1117, #1a1f29);
-      color: #e5e7eb;
-      font-size: 17px;
-      line-height: 1.7;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0f1a;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
     }
     nav {
-      background-color: #10151e;
+      background: #121826;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
       display: flex;
       justify-content: center;
-      padding: 14px 0;
-      border-bottom: 1px solid #2a2f3a;
+      gap: 20px;
     }
     nav a {
-      margin: 0 20px;
-      color: #60aaff;
+      color: #00eaff;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: bold;
     }
     nav a:hover {
-      text-decoration: underline;
+      color: #60eaff;
     }
-    header {
-      text-align: center;
-      padding: 50px 20px 20px;
+    h1 {
+      color: #00eaff;
+      margin-top: 20px;
     }
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.3em;
-      color: #3ab7ff;
-    }
-    header p {
-      font-size: 1.05em;
-      color: #a1a1aa;
-    }
-    .container {
+    .image-preview img {
+      width: 100%;
       max-width: 900px;
-      margin: auto;
-      padding: 30px 20px;
-    }
-    .card {
-      background: rgba(255, 255, 255, 0.03);
-      backdrop-filter: blur(6px);
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease;
-    }
-    .card:hover {
-      transform: translateY(-4px);
-    }
-    .card h2 {
-      margin-top: 0;
-      font-size: 1.3em;
-      color: #00c3ff;
-    }
-    a {
-      color: #60aaff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 40px 10px;
-      font-size: 0.9em;
-      color: #777;
+      border-radius: 12px;
+      box-shadow: 0 0 24px rgba(0,255,255,0.2);
     }
   </style>
 </head>
 <body>
   <nav>
     <a href="index.html">Accueil</a>
-    <a href="tools.html">Outils</a>
-    <a href="#apropos">À propos</a>
+    <a href="modules.html">Modules</a>
+    <a href="developer.html">Développeur</a>
   </nav>
-  <header>
-    <h1>Milyes – Vision NetSecurePro</h1>
-    <p>Intelligence Artificielle | Cybersécurité | Automatisation</p>
-  </header>
-  <div class="container">
-    <div class="card">
-      <h2>Bienvenue</h2>
-      <p>Bienvenue sur mon site personnel. Vous trouverez ici mes outils, scripts et projets liés à l'intelligence artificielle, la cybersécurité, et l'automatisation.</p>
-    </div>
-    <div class="card" id="apropos">
-      <h2>À propos</h2>
-      <p>Je suis développeur passionné par la création d'applications IA intelligentes et sécurisées, conçues pour fonctionner aussi bien sur mobile que sur PC.</p>
-    </div>
+
+  <h1>NetSecurePro – Intelligence Autonome</h1>
+  <p>Une interface IA moderne, fluide et pensée pour la cybersécurité et l'automatisation intelligente.</p>
+
+  <div class="image-preview">
+    <img src="https://raw.githubusercontent.com/milyes/milyes.github.io/main/assets/netsecurepro_futuriste_home.png" alt="Interface IA">
   </div>
-  <footer>
-    &copy; 2025 Milyes – Vision NetSecurePro.
-  </footer>
 </body>
 </html>
