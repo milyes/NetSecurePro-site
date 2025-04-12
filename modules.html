@@ -11,28 +11,13 @@
       margin: 0;
       padding: 40px 20px;
     }
-    nav {
-      background: #121826;
-      padding: 10px 0;
-      position: sticky;
-      top: 0;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-    nav a {
-      color: #00eaff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      color: #60eaff;
-    }
+
     h1 {
       text-align: center;
       color: #00eaff;
       margin-bottom: 30px;
     }
+
     .modules-grid {
       max-width: 1000px;
       margin: auto;
@@ -40,51 +25,65 @@
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 20px;
     }
+
     .module {
       background: #121826;
       border-radius: 12px;
       padding: 20px;
       box-shadow: 0 0 10px rgba(0,255,255,0.1);
     }
+
     .module h3 {
       margin-top: 0;
       color: #60eaff;
     }
+
     .module p {
       font-size: 0.95em;
       color: #ccc;
     }
+
+    a {
+      color: #60aaff;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.85em;
+      color: #666;
+    }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="modules.html">Modules</a>
-    <a href="developer.html">Développeur</a>
-  </nav>
-
   <h1>Modules IA intégrés – NetSecurePro</h1>
+
   <div class="modules-grid">
     <div class="module">
-      <h3>Gestion des Données</h3>
-      <p>Analyse automatisée, structuration intelligente, traitement IA sécurisé des fichiers sensibles.</p>
+      <h3>1. Gestion des Données</h3>
+      <p>Traitement intelligent de fichiers, structuration automatique et sécurisation locale ou distante.</p>
     </div>
     <div class="module">
-      <h3>Optimisation IA</h3>
-      <p>Amélioration continue des performances réseau, auto-adaptation mobile/serveur.</p>
+      <h3>2. Optimisation IA</h3>
+      <p>Amélioration des performances temps réel, analyse réseau, auto-adaptation mobile/serveur.</p>
     </div>
     <div class="module">
-      <h3>Terminal IA</h3>
-      <p>Interface IA CLI interactive, programmable et évolutive.</p>
+      <h3>3. Terminal IA</h3>
+      <p>Interface en ligne de commande IA interactive, programmable, connectée à des modèles.</p>
     </div>
     <div class="module">
-      <h3>Cybersécurité IA</h3>
-      <p>Analyse comportementale, alertes de vulnérabilité, protection réseau.</p>
+      <h3>4. Cybersécurité IA</h3>
+      <p>Modules d’analyse comportementale, alertes de vulnérabilité, renforcement des accès.</p>
     </div>
     <div class="module">
-      <h3>Diagnostic Médical</h3>
-      <p>Analyse des symptômes (Parkinson, Diabète) via capteurs mobiles et IA embarquée.</p>
+      <h3>5. Diagnostic Médical</h3>
+      <p>Analyse des symptômes (ex : Parkinson, Diabète) à partir de capteurs et IA embarquée.</p>
     </div>
   </div>
+
+  <footer>
+    &copy; 2025 Milyes – Tous droits réservés. NetSecurePro IA.
+  </footer>
 </body>
 </html>
