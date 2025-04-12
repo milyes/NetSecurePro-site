@@ -20,4 +20,16 @@
 
 - ✅ **Tableau de bord dynamique** (graphiques interactifs)
 - ✅ **Analyse IA des réseaux** (recommandations intelligentes)
-- ✅ **Export PDF automatique** (rapports IA
+- ✅ **Export PDF automatique** (rapports IA lisibles)
+- ✅ **Sécurisation avancée** (JWT, HTTPS, Firewall)
+- ✅ **Terminal IA** (Shell intelligent embarqué, mobile/PC)
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/milyes/NetSecurePro
+cd NetSecurePro
+pip install -r requirements.txt  # si fichier requis
+python server/app.py             # pour lancer l’API Flask
