@@ -15,48 +15,24 @@
       font-size: 17px;
       line-height: 1.7;
     }
-
-    nav {
-      background-color: #10151e;
-      display: flex;
-      justify-content: center;
-      padding: 14px 0;
-      border-bottom: 1px solid #2a2f3a;
-    }
-
-    nav a {
-      margin: 0 20px;
-      color: #60aaff;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
     header {
       text-align: center;
-      padding: 50px 20px 20px;
+      padding: 60px 20px 20px;
     }
-
     header h1 {
       font-size: 2.5em;
       margin-bottom: 0.3em;
       color: #3ab7ff;
     }
-
     header p {
       font-size: 1.05em;
       color: #a1a1aa;
     }
-
     .container {
       max-width: 900px;
       margin: auto;
       padding: 30px 20px;
     }
-
     .card {
       background: rgba(255, 255, 255, 0.03);
       backdrop-filter: blur(6px);
@@ -67,26 +43,21 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       transition: transform 0.3s ease;
     }
-
     .card:hover {
       transform: translateY(-4px);
     }
-
     .card h2 {
       margin-top: 0;
       font-size: 1.3em;
       color: #00c3ff;
     }
-
     a {
       color: #60aaff;
       text-decoration: none;
     }
-
     a:hover {
       text-decoration: underline;
     }
-
     footer {
       text-align: center;
       padding: 40px 10px;
@@ -96,12 +67,6 @@
   </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="tools.html">Outils</a>
-    <a href="#apropos">À propos</a>
-  </nav>
-
   <header>
     <h1>Milyes – Vision NetSecurePro</h1>
     <p>Intelligence Artificielle | Cybersécurité | Automatisation</p>
@@ -109,13 +74,15 @@
 
   <div class="container">
     <div class="card">
-      <h2>Bienvenue</h2>
-      <p>Bienvenue sur mon site personnel. Vous trouverez ici mes outils, scripts et projets liés à l'intelligence artificielle, la cybersécurité, et l'automatisation.</p>
+      <h2>À propos</h2>
+      <p>Développeur passionné par l'IA, les systèmes embarqués et la cybersécurité.  
+      Je conçois des solutions IA innovantes pour des applications médicales, mobiles et de sécurité avancée.</p>
     </div>
 
-    <div class="card" id="apropos">
-      <h2>À propos</h2>
-      <p>Je suis développeur passionné par la création d'applications IA intelligentes et sécurisées, conçues pour fonctionner aussi bien sur mobile que sur PC.</p>
+    <div class="card">
+      <h2>Outil PDF Lisible (PC + Termux)</h2>
+      <p>Script Python CLI pour convertir un PDF corrompu en PDF lisible par images, avec suppression automatique des fichiers temporaires.</p>
+      <p><a href="scripts/pdf_to_clean_images_cli.py" download>Télécharger le script PDF lisible</a></p>
     </div>
   </div>
 
