@@ -1,24 +1,23 @@
-# 🚀 NetSecurePro - Plateforme IA de Sécurité Réseau
+# NetSecurePro – Plateforme IA de Cybersécurité & Réseaux
 
-## 📌 Présentation
-NetSecurePro est une plateforme IA avancée qui **scanne, analyse et optimise les réseaux (WiFi, Bluetooth, LTE, eSIM)** en temps réel.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Made with IA](https://img.shields.io/badge/Made%20with-IA-success?logo=openai)]
+
+**NetSecurePro** est une plateforme modulaire intégrant des outils IA pour la détection, l’analyse et l’optimisation des réseaux (WiFi, Bluetooth, LTE, eSIM) en temps réel, combinée à un backend intelligent, un terminal IA, une interface web dynamique et un export de rapports PDF.
+
+---
 
 ## 🏗️ Structure du Projet
-📂 **BluetoothNetworkScanner-1** - Détection des réseaux  
-📂 **FlaskServer** - Backend API en Flask  
-📂 **LanguageLearner** - Module d’apprentissage IA  
-📂 **Client Web** - Interface moderne avec graphiques  
 
-## 📊 Fonctionnalités Clés
-✅ **Tableau de bord dynamique** (Graphiques interactifs)  
-✅ **Analyse IA des réseaux** (Recommandations intelligentes)  
-✅ **Export PDF** (Rapports automatiques)  
-✅ **Sécurisation avancée** (JWT, HTTPS, Firewall)  
+- 📁 **BluetoothNetworkScanner-1** – Détection des réseaux
+- 📁 **FlaskServer** – API sécurisée avec Flask (JWT, HTTPS)
+- 📁 **LanguageLearner** – IA d’apprentissage automatisée
+- 📁 **Client Web** – Interface graphique moderne (HTML/CSS/JS)
 
-## 📦 Installation
-```bash
-git clone https://github.com/milyes/NetSecurePro.git
-cd NetSecurePro
-pip install -r requirements.txt
-npm install
-python main.py
+---
+
+## ✅ Fonctionnalités Clés
+
+- ✅ **Tableau de bord dynamique** (graphiques interactifs)
+- ✅ **Analyse IA des réseaux** (recommandations intelligentes)
+- ✅ **Export PDF automatique** (rapports IA
