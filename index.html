@@ -1,55 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NetSecurePro – Intelligence Autonome</title>
+  <title>Milyes – Vision NetSecurePro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #0a0f1a;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      flex-direction: column;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #0e1117, #1a1f29);
+      color: #e5e7eb;
+      font-size: 17px;
+      line-height: 1.7;
     }
-    .image-preview {
-      width: 95%;
-      max-width: 1000px;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 0 24px rgba(0, 255, 255, 0.2);
-      margin-top: 40px;
-    }
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
-    }
-    h1 {
-      font-size: 2.4em;
-      font-weight: 600;
-      color: #00eaff;
-    }
-    p {
-      font-size: 1.1em;
-      color: #ccc;
-      max-width: 800px;
+    header {
       text-align: center;
+      padding: 60px 20px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.3em;
+      color: #3ab7ff;
+    }
+    header p {
+      font-size: 1.05em;
+      color: #a1a1aa;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.3em;
+      color: #00c3ff;
+    }
+    a {
+      color: #60aaff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 10px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <h1>NetSecurePro – Intelligence Autonome</h1>
-  <p>Bienvenue sur la plateforme NetSecurePro. Découvrez les modules IA orientés cybersécurité, réseaux, traitement intelligent et automatisation. Interface optimisée pour une navigation rapide, moderne et intuitive.</p>
+  <header>
+    <h1>Milyes – Vision NetSecurePro</h1>
+    <p>Intelligence Artificielle | Cybersécurité | Automatisation</p>
+  </header>
 
-  <div class="image-preview">
-    <img src="assets/netsecurepro_futuriste_home.png" alt="Accueil NetSecurePro IA Futuriste" />
+  <div class="container">
+    <div class="card">
+      <h2>À propos</h2>
+      <p>Développeur passionné par l'IA, les systèmes embarqués et la cybersécurité.  
+      Je conçois des solutions IA innovantes pour des applications médicales, mobiles et de sécurité avancée.</p>
+    </div>
+
+    <div class="card">
+      <h2>Outil PDF Lisible (PC + Termux)</h2>
+      <p>Script Python CLI pour convertir un PDF corrompu en PDF lisible par images, avec suppression automatique des fichiers temporaires.</p>
+      <p><a href="scripts/pdf_to_clean_images_cli.py" download>Télécharger le script PDF lisible</a></p>
+    </div>
   </div>
+
+  <footer>
+    &copy; 2025 Milyes – Vision NetSecurePro.
+  </footer>
 </body>
 </html>
