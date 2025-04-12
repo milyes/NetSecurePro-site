@@ -16,9 +16,28 @@
       line-height: 1.7;
     }
 
+    nav {
+      background-color: #10151e;
+      display: flex;
+      justify-content: center;
+      padding: 14px 0;
+      border-bottom: 1px solid #2a2f3a;
+    }
+
+    nav a {
+      margin: 0 20px;
+      color: #60aaff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     header {
       text-align: center;
-      padding: 60px 20px 20px;
+      padding: 50px 20px 20px;
     }
 
     header h1 {
@@ -77,6 +96,12 @@
   </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="tools.html">Outils</a>
+    <a href="#apropos">À propos</a>
+  </nav>
+
   <header>
     <h1>Milyes – Vision NetSecurePro</h1>
     <p>Intelligence Artificielle | Cybersécurité | Automatisation</p>
@@ -84,15 +109,13 @@
 
   <div class="container">
     <div class="card">
-      <h2>À propos</h2>
-      <p>Développeur passionné par l'IA, les systèmes embarqués et la cybersécurité.  
-         Je conçois des solutions IA innovantes pour des applications médicales, mobiles et de sécurité avancée.</p>
+      <h2>Bienvenue</h2>
+      <p>Bienvenue sur mon site personnel. Vous trouverez ici mes outils, scripts et projets liés à l'intelligence artificielle, la cybersécurité, et l'automatisation.</p>
     </div>
 
-    <div class="card">
-      <h2>Outil PDF lisible (PC + Termux)</h2>
-      <p>Script Python CLI pour convertir un PDF corrompu en PDF lisible par images, avec nettoyage automatique du cache et suppression du fichier original.</p>
-      <p><a href="scripts/pdf_to_clean_images_cli.py" download>Télécharger le script Python PDF CLI</a></p>
+    <div class="card" id="apropos">
+      <h2>À propos</h2>
+      <p>Je suis développeur passionné par la création d'applications IA intelligentes et sécurisées, conçues pour fonctionner aussi bien sur mobile que sur PC.</p>
     </div>
   </div>
 
