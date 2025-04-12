@@ -3,53 +3,83 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NetSecurePro – Accueil</title>
+  <title>Milyes – NetSecurePro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #0a0f1a;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #0e1117, #1a1f29);
+      color: #e5e7eb;
+      font-size: 17px;
+      line-height: 1.7;
     }
     nav {
-      background: #121826;
-      padding: 12px 0;
-      position: sticky;
-      top: 0;
+      background-color: #10151e;
       display: flex;
       justify-content: center;
-      gap: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      padding: 14px 0;
+      border-bottom: 1px solid #2a2f3a;
     }
     nav a {
-      color: #00eaff;
+      margin: 0 20px;
+      color: #60aaff;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
     }
     nav a:hover {
-      color: #60eaff;
+      text-decoration: underline;
     }
-    h1 {
-      color: #00eaff;
-      margin-top: 20px;
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
     }
-    p {
-      color: #ccc;
-      font-size: 1.1em;
-      max-width: 800px;
-      margin: 0 auto 30px;
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.3em;
+      color: #3ab7ff;
     }
-    .image-preview img {
-      width: 100%;
+    header p {
+      font-size: 1.2em;
+      color: #a1a1aa;
+      max-width: 700px;
+      margin: auto;
+    }
+    .container {
       max-width: 900px;
-      border-radius: 12px;
-      box-shadow: 0 0 24px rgba(0,255,255,0.2);
+      margin: auto;
+      padding: 30px 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.5em;
+      color: #00c3ff;
+    }
+    a {
+      color: #60aaff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     footer {
-      margin-top: 40px;
-      font-size: 0.8em;
+      text-align: center;
+      padding: 40px 10px;
+      font-size: 0.9em;
       color: #777;
     }
   </style>
@@ -57,20 +87,38 @@
 <body>
   <nav>
     <a href="index.html">Accueil</a>
-    <a href="modules.html">Modules</a>
-    <a href="developer_interactive.html">Développeur</a>
+    <a href="tools.html">Outils</a>
+    <a href="#apropos">À propos</a>
   </nav>
 
-  <h1>NetSecurePro – Intelligence Autonome</h1>
-  <p>Bienvenue sur la plateforme IA personnelle de Mohamed Ilyes Zoubirou.<br>
-     Découvrez des modules IA pour la cybersécurité, la gestion de données et l'automatisation mobile.</p>
+  <header>
+    <h1>Bienvenue sur l’univers NetSecurePro</h1>
+    <p>Explorez un espace unique où technologie, intelligence artificielle, sécurité et plaisir de navigation se rencontrent pour offrir une expérience personnalisée, fluide et sécurisée.</p>
+  </header>
 
-  <div class="image-preview">
-    <img src="https://raw.githubusercontent.com/milyes/milyes.github.io/main/assets/netsecurepro_futuriste_home.png" alt="Interface IA">
+  <div class="container">
+    <div class="card">
+      <h2>Pourquoi NetSecurePro ?</h2>
+      <p>NetSecurePro est bien plus qu’un projet personnel. C’est une vision : celle d’un écosystème intelligent conçu pour protéger, assister et automatiser les tâches essentielles, tout en offrant une interface agréable, intuitive et humaine.</p>
+    </div>
+
+    <div class="card" id="apropos">
+      <h2>Une navigation pensée pour vous</h2>
+      <p>Ici, chaque section est construite avec attention : des outils utiles accessibles en un clic, une interface claire, et un code source transparent. Que vous soyez curieux, développeur ou utilisateur, tout est conçu pour votre confort et votre curiosité.</p>
+    </div>
+
+    <div class="card">
+      <h2>Ce que vous trouverez ici</h2>
+      <ul>
+        <li>Des scripts IA et utilitaires pour PC, mobile, Termux</li>
+        <li>Des modules IA en cybersécurité, médical, réseau</li>
+        <li>Une base ouverte et évolutive pour expérimenter</li>
+      </ul>
+    </div>
   </div>
 
   <footer>
-    &copy; 2025 MOHAMED ILYES ZOUBIROU – NetSecurePro IA. Tous droits réservés.
+    &copy; 2025 Milyes – L’univers NetSecurePro. Naviguez avec plaisir, explorez avec intelligence.
   </footer>
 </body>
 </html>
