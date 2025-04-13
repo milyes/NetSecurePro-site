@@ -1,35 +1,59 @@
-# NetSecurePro – Plateforme IA de Cybersécurité & Réseaux
+# NetSecurePro Site Web
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Made with IA](https://img.shields.io/badge/Made%20with-IA-success?logo=openai)]
+[![MIT License](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
+[![Site en ligne](https://img.shields.io/website?url=https://milyes.github.io)](https://milyes.github.io)
 
-**NetSecurePro** est une plateforme modulaire intégrant des outils IA pour la détection, l’analyse et l’optimisation des réseaux (WiFi, Bluetooth, LTE, eSIM) en temps réel, combinée à un backend intelligent, un terminal IA, une interface web dynamique et un export de rapports PDF.
-
----
-
-## 🏗️ Structure du Projet
-
-- 📁 **BluetoothNetworkScanner-1** – Détection des réseaux
-- 📁 **FlaskServer** – API sécurisée avec Flask (JWT, HTTPS)
-- 📁 **LanguageLearner** – IA d’apprentissage automatisée
-- 📁 **Client Web** – Interface graphique moderne (HTML/CSS/JS)
+> **Plateforme IA personnelle** développée par **Mohamed Ilyes Zoubirou**, orientée cybersécurité, réseaux, diagnostic médical et automatisation mobile.
 
 ---
 
-## ✅ Fonctionnalités Clés
+## 🌐 Accéder au site
 
-- ✅ **Tableau de bord dynamique** (graphiques interactifs)
-- ✅ **Analyse IA des réseaux** (recommandations intelligentes)
-- ✅ **Export PDF automatique** (rapports IA lisibles)
-- ✅ **Sécurisation avancée** (JWT, HTTPS, Firewall)
-- ✅ **Terminal IA** (Shell intelligent embarqué, mobile/PC)
+- **URL :** [https://milyes.github.io](https://milyes.github.io)
 
 ---
 
-## ⚙️ Installation
+## 🧠 Pages Principales
 
-```bash
-git clone https://github.com/milyes/NetSecurePro
-cd NetSecurePro
-pip install -r requirements.txt  # si fichier requis
-python server/app.py             # pour lancer l’API Flask
+| Page             | Description                                      |
+|------------------|--------------------------------------------------|
+| `index.html`     | Page d’accueil avec bouton animé + fade-in      |
+| `modules.html`   | Présentation des modules IA intégrés            |
+| `developer.html` | Fiche développeur avec QR code                  |
+| `docs.html`      | Documentation interactive (structure, scripts)  |
+
+---
+
+## 🚀 Fonctionnalités
+
+- ✅ Interface Web animée
+- ✅ Structure HTML modulaire
+- ✅ Badge développeur IA vérifié
+- ✅ Intégration mobile responsive
+- ✅ Design sombre & futuriste
+
+---
+
+## 🧩 Technologies
+
+- HTML5 / CSS3 (animations personnalisées)
+- SVG (logo animé)
+- Responsive mobile first
+- GitHub Pages (hébergement)
+
+---
+
+## 🧾 Auteur
+
+**MOHAMED ILYES ZOUBIROU**  
+→ [https://github.com/milyes](https://github.com/milyes)  
+→ [https://milyes.github.io](https://milyes.github.io)
+
+---
+
+## 📜 Licence
+
+Ce projet est sous licence **MIT** – voir le fichier [`LICENSE`](LICENSE).
+
+---
+
