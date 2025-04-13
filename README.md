@@ -1,3 +1,4 @@
+
 # NetSecurePro Site Web
 
 [![MIT License](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
@@ -5,13 +6,9 @@
 
 > **Plateforme IA personnelle** développée par **Mohamed Ilyes Zoubirou**, orientée cybersécurité, réseaux, diagnostic médical et automatisation mobile.
 
----
-
 ## 🌐 Accéder au site
 
 - **URL :** [https://milyes.github.io](https://milyes.github.io)
-
----
 
 ## 🧠 Pages Principales
 
@@ -22,8 +19,6 @@
 | `developer.html` | Fiche développeur avec QR code                  |
 | `docs.html`      | Documentation interactive (structure, scripts)  |
 
----
-
 ## 🚀 Fonctionnalités
 
 - ✅ Interface Web animée
@@ -32,8 +27,6 @@
 - ✅ Intégration mobile responsive
 - ✅ Design sombre & futuriste
 
----
-
 ## 🧩 Technologies
 
 - HTML5 / CSS3 (animations personnalisées)
@@ -41,19 +34,12 @@
 - Responsive mobile first
 - GitHub Pages (hébergement)
 
----
-
 ## 🧾 Auteur
 
 **MOHAMED ILYES ZOUBIROU**  
 → [https://github.com/milyes](https://github.com/milyes)  
 → [https://milyes.github.io](https://milyes.github.io)
 
----
-
 ## 📜 Licence
 
 Ce projet est sous licence **MIT** – voir le fichier [`LICENSE`](LICENSE).
-
----
-
