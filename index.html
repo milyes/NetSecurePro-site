@@ -1,34 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Interface IA – wardam.me</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #111; color: #eee; text-align: center; padding: 50px; }
-    input, button { padding: 10px; margin: 5px; border-radius: 5px; border: none; }
-    button { background: #3a8; color: white; cursor: pointer; }
-    .output { margin-top: 20px; white-space: pre-wrap; text-align: left; max-width: 600px; margin-left: auto; margin-right: auto; }
-  </style>
+  <title>wardam.me – Accueil</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>🧠 IA Web – NetSecurePro | wardam.me</h1>
-  <p>Entrez votre texte à analyser :</p>
-  <textarea id="texte" rows="4" cols="60" placeholder="Votre texte ici..."></textarea><br>
-  <button onclick="analyser()">Analyser</button>
-
-  <div class="output" id="resultat"></div>
-
-  <script>
-    async function analyser() {
-      const texte = document.getElementById("texte").value;
-      const res = await fetch("https://evaluation-essentials-challenging-loaded.trycloudflare.com/analyse", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ texte })
-      });
-      const data = await res.json();
-      document.getElementById("resultat").textContent = JSON.stringify(data, null, 2);
-    }
-  </script>
+  <div style="text-align:center;margin-top:50px;">
+    <h1>Bienvenue sur <strong>wardam.me</strong></h1>
+    <p>Plateforme sécurisée propulsée par <strong>NetSecurePro</strong></p>
+    <a href="dns/wardam_me_zone.txt" download>Télécharger le fichier DNS</a><br><br>
+    <img src="wardam_launch_banner.png" width="400px">
+  </div>
 </body>
 </html>
