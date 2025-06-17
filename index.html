@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NetSecurePro</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #0d1117;
-            color: #c9d1d9;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            color: #58a6ff;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Interface IA – wardam.me</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #111; color: #eee; text-align: center; padding: 50px; }
+    input, button { padding: 10px; margin: 5px; border-radius: 5px; border: none; }
+    button { background: #3a8; color: white; cursor: pointer; }
+    .output { margin-top: 20px; white-space: pre-wrap; text-align: left; max-width: 600px; margin-left: auto; margin-right: auto; }
+  </style>
 </head>
 <body>
-    <h1>Bienvenue sur NetSecurePro</h1>
-    <p>Votre domaine personnalisé est maintenant actif.</p>
+  <h1>🧠 IA Web – NetSecurePro | wardam.me</h1>
+  <p>Entrez votre texte à analyser :</p>
+  <textarea id="texte" rows="4" cols="60" placeholder="Votre texte ici..."></textarea><br>
+  <button onclick="analyser()">Analyser</button>
+
+  <div class="output" id="resultat"></div>
+
+  <script>
+    async function analyser() {
+      const texte = document.getElementById("texte").value;
+      const res = await fetch("https://evaluation-essentials-challenging-loaded.trycloudflare.com/analyse", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ texte })
+      });
+      const data = await res.json();
+      document.getElementById("resultat").textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
 </body>
 </html>
